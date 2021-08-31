@@ -11,7 +11,7 @@ describe('Telkom Automation Test', function () {
         hPage.getUrl();
     });
 
-    it.skip('Positve Case - Buy with Bank Transfer', function () {
+    it('Positve Case - Buy with Bank Transfer', function () {
 
         hPage.btnBuy()
         cy.wait(500)
@@ -61,7 +61,7 @@ describe('Telkom Automation Test', function () {
 
     })
 
-    it.skip('Positve Case - Buy with E-Wallet', function () {
+    it('Positve Case - Buy with E-Wallet', function () {
 
         hPage.btnBuy()
         cy.wait(500)
